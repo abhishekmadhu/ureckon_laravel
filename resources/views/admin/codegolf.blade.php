@@ -22,7 +22,7 @@
                     </thead>
                     <tbody>
                     @foreach($participants as $participant)
-                        @if($participant->event === 'codegolf')
+                        @if($participant->event == 'codegolf')
                             <tr>
                                 <td> {{ $participant->team }}</td>
                                 <td>{{ $participant->event }}</td>
