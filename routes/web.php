@@ -24,6 +24,9 @@ Route::view('/partners', 'views.partners');
 Route::view('/talks', 'views.talks');
 Route::view('/web', 'views.web');
 Route::view('/team', 'views.teams');
+Route::get('/techarticle', function (){
+    return \Illuminate\Support\Facades\Redirect::to('https://goo.gl/forms/nfVWH6byC5qbwuUe2');
+});
 Route::get('/events', 'UserController@events');
 Route::view('/about', 'views.aboutus');
 Route::view('/workshops', 'views.workshops');

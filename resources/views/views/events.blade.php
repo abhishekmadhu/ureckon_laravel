@@ -366,7 +366,7 @@
                                 <h5 class="mt-3">Event Co-ordinators</h5>
                                 <p>Shobhan Das <a href="tel:9836856937"><i class="fa fa-phone" aria-hidden="true"></i> +91 9836856937</a>
                                 <br>Sagnik Sengupta <a href="tel:9733197523"><i class="fa fa-phone" aria-hidden="true"></i> +91 9733197523</a></p>
-                                <a href="https://drive.google.com/open?id=171ty7P31JiPCimlFHVP2heDaK6qoQf_D" class="btn btn-light hvr-wobble-vertical"><i class="fas fa-arrow-down"></i> Download</a>
+                                <a href="https://drive.google.com/open?id=1XAuS30BOPGNF96Rv43XfCfOxYNa-F1h8" class="btn btn-light hvr-wobble-vertical"><i class="fas fa-arrow-down"></i> Download</a>
                                 <!-- <a href="#" class="btn btn-primary float-right hvr-buzz">Register</a> -->
                                 @auth
                                 <button class="btn btn-primary float-right hvr-buzz btn-show-contact100 events-page__coding-button" id="coderanch">
@@ -414,7 +414,7 @@
                                 <p class="card-text lead">How Low Can You Go?
                                     Code Golf is more than just logic; the shorter the code, the bigger the prizes.</p>
                                 <h5 class="mt-3">Event Co-ordinators</h5>
-                                <p>Abhishek Madhu <a href="tel:7679396615"><i class="fa fa-phone" aria-hidden="true"></i> +91 7679396615</a>
+                                <p>Abhishek Madhu <a href="tel:9051789940"><i class="fa fa-phone" aria-hidden="true"></i> +91 9051789940</a>
                                 <br>Rajdeep Karmaker <a href="tel:8420703558"><i class="fa fa-phone" aria-hidden="true"></i> +91 8420703558</a></p>
                                 <a href="https://drive.google.com/open?id=1nPVmTKQoeE7z91M5tAwKR43GAB9nsVTI" class="btn btn-light hvr-wobble-vertical"><i class="fas fa-arrow-down"></i> Download</a>
                                 <!-- <a href="#" class="btn btn-primary float-right hvr-buzz">Register</a> -->
@@ -425,8 +425,11 @@
                                 @endauth
                                 @guest
                             <!-- Button trigger modal -->
-                                <a href="/signin" class="btn btn-primary float-right hvr-buzz btn-show-contact100 events-page__gaming-button"  >
-                                    Login to Register
+                            <!-- Changing this to google-forms link for people who are not logged in and are unclear 
+                                about the registration process. People already logged in (experts) can still register 
+                                for events from the database -->
+                                <a href="https://goo.gl/forms/jlytxo1AEF7EoKbI3" class="btn btn-primary float-right hvr-buzz btn-show-contact100 events-page__gaming-button"  >
+                                    Register Here
                                 </a>
                                 <!-- Modal -->
                                 <div class="modal fade" id="modelId" tabindex="-1" role="dialog"
